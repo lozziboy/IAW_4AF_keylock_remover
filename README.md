@@ -37,7 +37,7 @@ ___
      
      `C:\Users\(your login user)\AppData\Local\Programs\Python\Python311`
  
-   *  add pyton to the program runnable from command line, to do that:
+   *  add pyton to the program runnable from command line:
      Control Panel -> System -> Edit system environment variables -> Press button "Environment variables"
      Select "Path" entry and click button "Edit"
      Click on "New" and paste the path of the folder where phyton.exe is located
