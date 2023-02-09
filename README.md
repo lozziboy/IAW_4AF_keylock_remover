@@ -45,4 +45,35 @@ ___
     
     ![Example](https://github.com/lozziboy/IAW_4AF_keylock_remover/blob/main/environment_variable.png)
     
+   * install 7zip   
+     https://www.7-zip.org/download.html
      
+   * download pyserial.tar.gz and uncompress it locally using 7zip   
+     https://pypi.org/project/pyserial/
+     
+   * install pyserial using windows terminal  
+     `cd C:\Users\(your login user)\Downloads\pyserial-3.5.tar\dist\pyserial-3.5`   
+     `python setup.py install`
+     
+___
+* Step 3: prepare arduino for eeprom 95160 programming
+	   
+   * download arduino sketch (EEPROG.ino) to dump/write/erase eeprom 95160   
+    https://github.com/cedricp/Arduino-95160
+    
+    * connect Arduino uno3 to the serial usb of the pc and use software Arduino IDE upload EEPROG.ino to an Arduino uno r3   
+___
+* Step 4: wire eeprom 95160 to to Arduino
+	   
+   * open ECU IAW 4AF and locate eeprom 95160   
+	   <img src="https://github.com/lozziboy/IAW_4AF_keylock_remover/blob/main/SPI95160_pos.png" width="400">
+	   
+   * wire eeprom 95160 to Arduino
+        chip select (s) = 9
+	serial data input (d) = 10
+	serial data output (q) = 11
+	serial clock (c) = 12
+	write protect (w) = 13
+	hold (h) = 8
+	Vcc = 3.3v
+	Vss = GND	   
