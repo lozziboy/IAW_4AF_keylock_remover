@@ -42,5 +42,6 @@ ___
      Select "Path" entry and click button "Edit"
      Click on "New" and paste the path of the folder where phyton.exe is located
     
-    ![Example](https://github.com/lozziboy/IAW_4AF_keylock_remover/blob/main/environment_variable.PNG) 
+    ![Example](https://github.com/lozziboy/IAW_4AF_keylock_remover/blob/main/environment_variable.png)
+    
      
