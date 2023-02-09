@@ -80,9 +80,12 @@ ___
      `Vss = GND`       
  	   <img src="https://github.com/lozziboy/IAW_4AF_keylock_remover/blob/main/images/wiring%2095160.png" width="600">    
 	   	   
+___
+* Step 5: download pyton scripts to dump and write eeprom 95160   
+   https://github.com/cedricp/Arduino-95160/tree/master/tools
 
 ___
-* Step 5: dump the eeprom 95160 content
+* Step 6: dump the eeprom 95160 content
 	   
    * open Windows terminal   
    * locate to pyton scripts folder    
@@ -91,13 +94,27 @@ ___
      `dump_eeprom.py [comport] [filename]`	   	   
 
 ___
-* Step 6: edit the local file to remove immobilizer
+* Step 7: edit the local file to remove immobilizer
    
-   * 
+   * install PonyProgV117h    
+   http://www.lancos.com/ppwin95.html    
+   
+   * open PonyProgV117h    
 
+   * select chip 2402-16    
 
+   * Edit->Edit buffer enabled    
+   
+   * open the file with the eeprom data dump and edit the following bytes    
+	   <img src="https://github.com/lozziboy/IAW_4AF_keylock_remover/blob/main/images/immo off.png" width="300">
+	   
+   * save the file
 ___
-* Step 7: write the 95160 eeprom
+* Step 8: write the 95160 eeprom
    
-   * 
+   * open Windows terminal   
+   * locate to pyton scripts folder    
+     `cd C:\Users\(your login user)\......\pyton scripts\`
+   * use pyton script `write_eeprom.py` to dump the eeprom content in a local file   
+     `write_eeprom.py [comport] [filename]`	
 
