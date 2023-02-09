@@ -99,11 +99,9 @@ ___
    * install PonyProgV117h    
    http://www.lancos.com/ppwin95.html    
    
-   * open PonyProgV117h    
-
-   * select chip 2402-16    
-
-   * Edit->Edit buffer enabled    
+   * open PonyProgV117h and set the following options    
+     `chip 2402-16`    
+     `Edit->Edit buffer enabled`    
    
    * open the file with the eeprom data dump and edit the following bytes    
 	   <img src="https://github.com/lozziboy/IAW_4AF_keylock_remover/blob/main/images/immo off.png" width="800">
@@ -115,6 +113,6 @@ ___
    * open Windows terminal   
    * locate to pyton scripts folder    
      `cd C:\Users\(your login user)\......\pyton scripts\`
-   * use pyton script `write_eeprom.py` to dump the eeprom content in a local file   
+   * use pyton script `write_eeprom.py` to write the eeprom with the content in the modified local file   
      `write_eeprom.py [comport] [filename]`	
 
