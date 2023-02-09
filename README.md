@@ -5,10 +5,12 @@ ___
 * Required tools:
 	   
    * a Windows pc
+ 
+   * Arduino uno r3
    
-   * soldering iron
-	   
-   * arduino uno r3
+   * SOP8 clamp
+    ![Example](https://github.com/lozziboy/IAW_4AF_keylock_remover/blob/main/sop8_clamp.png)
+
    
       
 ___
