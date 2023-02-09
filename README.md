@@ -9,7 +9,7 @@ ___
    * Arduino uno r3
    
    * SOP8 clamp
-    ![Example](https://github.com/lozziboy/IAW_4AF_keylock_remover/blob/main/sop8_clamp.png)
+    ![Example](https://github.com/lozziboy/IAW_4AF_keylock_remover/blob/main/sop8%20clamp.png)
 
    
       
