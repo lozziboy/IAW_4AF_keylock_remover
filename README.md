@@ -81,7 +81,7 @@ ___
  	   <img src="https://github.com/lozziboy/IAW_4AF_keylock_remover/blob/main/images/wiring%2095160.png" width="600">    
 	   	   
 ___
-* Step 5: download pyton scripts to dump and write eeprom 95160   
+* Step 5: download pyton scripts to manage eeprom 95160   
    https://github.com/cedricp/Arduino-95160/tree/master/tools
 
 ___
