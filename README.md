@@ -28,19 +28,17 @@ ___
 ___
 * Step 2: install and configure Pyton and Pyserial  
 	   
-   * install pyton  
-
+   * install pyton   
      https://www.python.org/getit/
    
    * find the folder where the installed `pyton.exe` is located, it could be in one of the two following places  
-     `C:\Python311`
-     
+     `C:\Python311`  
      `C:\Users\(your login user)\AppData\Local\Programs\Python\Python311`
  
-   *  add pyton to the program runnable from command line:
-     Control Panel -> System -> Edit system environment variables -> Press button "Environment variables"
-     Select "Path" entry and click button "Edit"
-     Click on "New" and paste the path of the folder where phyton.exe is located
+   *  add pyton to the program runnable from command line:  
+     `Control Panel -> System -> Edit system environment variables -> Press button "Environment variables"`  
+     `Select "Path" entry and click button "Edit"`  
+     `Click on "New" and paste the path of the folder where phyton.exe is located`  
     
     ![Example](https://github.com/lozziboy/IAW_4AF_keylock_remover/blob/main/environment_variable.png)
     
