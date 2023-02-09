@@ -64,7 +64,7 @@ ___
     * connect Arduino uno3 to the serial usb of the pc and use software Arduino IDE upload EEPROG.ino to an Arduino uno r3   
 
 ___
-* Step 4: wire eeprom 95160 to to Arduino
+* Step 4: wire eeprom 95160 to Arduino
 	   
    * open ECU IAW 4AF, locate eeprom 95160 and hook it with the SOP8 clamp   
 	   <img src="https://github.com/lozziboy/IAW_4AF_keylock_remover/blob/main/images/SPI95160_pos.png" width="300">
@@ -84,7 +84,7 @@ ___
 ___
 * Step 5: dump the eeprom content
 	   
-   * open Window terminal   
+   * open Windows terminal   
    * locate to pyton scripts folder    
      `cd C:\Users\(your login user)\......\pyton scripts\`
    * use pyton script `dump_eeprom.py` to dump the eeprom content    
