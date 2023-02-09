@@ -1,5 +1,5 @@
 # Magneti Marelli IAW 4AF keylock (immobilizer) remover
-**step-by-step method to remove keylock (immobilizer) for ECU Magneti Marelli IAW 4AF by reprogramming EEPROM 95160**
+**step-by-step method to remove keylock (immobilizer) for ECU Magneti Marelli IAW 4AF by reprogramming the EEPROM 95160 (2048 bytes size)**
       
 ___
 * Required tools:
@@ -100,7 +100,7 @@ ___
    http://www.lancos.com/ppwin95.html    
    
    * open PonyProgV117h and set the following options    
-     `chip 2402-16`    
+     `chip 2402-16` (to threat the data in 2048 bytes format)     
      `Edit->Edit buffer enabled`    
    
    * open the file with the eeprom data dump and edit the following bytes    
