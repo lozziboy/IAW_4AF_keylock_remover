@@ -82,13 +82,22 @@ ___
 	   	   
 
 ___
-* Step 5: dump the eeprom content
+* Step 5: dump the eeprom 95160 content
 	   
    * open Windows terminal   
    * locate to pyton scripts folder    
      `cd C:\Users\(your login user)\......\pyton scripts\`
-   * use pyton script `dump_eeprom.py` to dump the eeprom content    
+   * use pyton script `dump_eeprom.py` to dump the eeprom content in a local file   
      `dump_eeprom.py [comport] [filename]`	   	   
 
 ___
-* Step 6: dump the eeprom content
+* Step 6: edit the local file to remove immobilizer
+   
+   * 
+
+
+___
+* Step 7: write the 95160 eeprom
+   
+   * 
+
