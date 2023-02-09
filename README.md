@@ -106,7 +106,7 @@ ___
    * Edit->Edit buffer enabled    
    
    * open the file with the eeprom data dump and edit the following bytes    
-	   <img src="https://github.com/lozziboy/IAW_4AF_keylock_remover/blob/main/images/immo off.png" width="300">
+	   <img src="https://github.com/lozziboy/IAW_4AF_keylock_remover/blob/main/images/immo off.png" width="800">
 	   
    * save the file
 ___
