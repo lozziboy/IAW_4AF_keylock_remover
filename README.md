@@ -6,10 +6,11 @@ ___
 	   
    * a Windows pc
  
-   * Arduino uno r3
+   * Arduino uno r3, or its chinese clone
+   <img src="https://github.com/lozziboy/IAW_4AF_keylock_remover/blob/main/arduino_china.png" width="250">
    
    * SOP8 clamp
-    ![Example](https://github.com/lozziboy/IAW_4AF_keylock_remover/blob/main/sop8%20clamp.png)
+   <img src="https://github.com/lozziboy/IAW_4AF_keylock_remover/blob/main/sop8%20clamp.png" width="400">
 
    
       
